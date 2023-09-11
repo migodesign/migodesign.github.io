@@ -1,0 +1,369 @@
+/*
+Theme Name: Teczilla Multipurpose
+Theme URI:
+Template: teczilla
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com/
+Description:  Teczilla multipurpose is a child theme of teczilla wordpress theme perfect for multipurpose, finance , startup etc.It is a Very creative, fully customizable and multipurpose theme.Any website you want to make with this theme will look beautiful and compaitable.It has built in typography also dynamic typography also has unlimited color options in it.The theme suitable for saas application website, architecture, interior design, multipurpose, business, decoration, business, furniture, home decor, law firm, multipurpose, insurance, app landing page, it solutions, shop ecommerce, marketing, gym, blog, travel multipurpose, construction,  spa salons, industries, Beauty, photography, and many other websites compatible. Service option has icon and image options. Full Width responsive page layout. SEO optimized pages and fast speed loading.Compatible with gutenberg, elemnetor page builder WooCommerce, contact form 7, Jetpack, Google analytics and so many popular premium & free plugins nicely works with teczilla theme. For more theme information, check out Theme demo here at https://www.avadantathemes.com/demo/teczilla-multipurpose/ and theme instructions here at https://www.avadantathemes.com/documentation/teczilla-free-theme/
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.2
+Requires PHP: 5.6
+Text Domain: teczilla-multipurpose
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv2 or later
+*/
+
+body{
+
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.toolbar-area{
+    position: relative;
+    z-index: 1;
+}
+.toolbar-area{
+    background-color:#252628 !important;
+}
+.carousel-control-next, .carousel-control-prev{
+    display: none;
+}
+.home-slider::after{
+    background: transparent;
+}
+
+.toolbar-area::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+    transform: skew(-26deg);
+    padding-left: 20px;
+    background: #FF3C00;
+}
+
+.current_page_item {
+    background-color:transparent !important;
+    
+}
+.full-width-header .toolbar-area .toolbar-sl-share ul li a {
+    background-color: transparent !important;    
+    color: #fff !important;
+    font-size:22px;
+}
+
+.full-width-header .toolbar-area .toolbar-sl-share ul {
+    text-align: right;
+    margin-right: 0;
+}
+
+
+.full-width-header .teczilla-menu-area {
+    background: #fef9ec;
+    border-bottom: 1px solid #dde3de33;
+    position: absolute;
+}
+
+
+.full-width-header .tec-agncy-stick{
+    padding-top: 28px;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 6%);
+}
+
+.sidebar{
+
+    /*background-color: #F5F7FC;*/
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    /*padding: 26px 30px 10px;*/
+
+}
+
+.menu>.menu-item>a, .menu .page_item a{
+
+    color: #30353b !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-navigation li{
+    padding-top: 25px;
+}
+
+@media screen and (min-width: 992px){
+    .sticky {
+        background: #fff !important;
+    }
+}
+
+.teczilla-title{
+    margin-bottom: 0;
+}
+.teczilla-title a{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 40px;
+}
+.menu-all-pages-container .sub-menu{
+    background: #fff !important;
+}
+.menu-item-has-children .sub-menu li a{
+    color: #30353b !important;
+}
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul{
+    top: 60%;
+}
+
+.sidebar-widget.widget_block h2{
+    color: #1d1a4e;
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 600;
+    z-index: 1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+
+.sidebar .widget_search{
+    padding-bottom: 10px;
+}
+
+.sidebar-grid .sidebar-title .title:after, .widget_block .wp-block-group h2:after{
+    display: none;
+}
+
+.menu-sticky{
+
+    box-shadow: none;
+}
+
+.blog-wrap .content-part .blog-meta {
+    padding-left: 0;
+    margin-bottom: 7px;
+}
+
+#scrollUp i {
+    border-radius: 50%;
+}
+
+.error-44{
+    position: relative;
+}
+
+.error-44:before {
+    top: 0;
+    background: #000;
+    position: absolute;
+    content: "";
+    opacity: 0.85;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+
+.menu-toggle {
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    position: absolute;
+    display: none;
+    top: -15px;
+    font-size: 14px;
+    right: 20px;
+    font-size: 0.875rem;
+    font-size: 20px;
+    font-weight: 800;
+    /* float: right; */
+    margin-top: -40px;
+    text-shadow: none;
+}
+
+
+@media only screen and (max-width: 991px){
+.main-navigation {
+    padding: 0;
+    margin-top: 0;
+}
+
+.full-width-header .tec-agncy-stick {
+    padding-top: 0;
+    margin-top: 40px;
+}
+}
+
+.carousel-control-next-icon:before,
+.carousel-control-prev-icon:before{
+
+    background: #000 !important;
+}
+
+.home-slider .container .slider-caption .slider-bottom .slider-btn{
+    color: #fff;
+    border-radius: 35px;
+}
+.widget_tag_cloud .wp-block-tag-cloud a{
+
+    color: #fff;
+}
+
+.tec-breadcrumbs .inner-title h2 {
+    padding-top: 15px;
+}
+
+.teczillaa-fullwidth .blog-wrap{
+    border:none;
+    padding-top:50px;
+}
+
+.inner-title{
+
+    padding-top: 118px !important;
+}
+
+.tec-about .image-part img{
+
+    width: 100%;
+}
+
+.menu-toggle:focus-visible{
+
+    border: 2px solid #fff !important;
+}
+.toolbar-sl-share{
+    text-align: end;
+}
+.toolbar-sl-share ul{
+    display: inline-flex;
+    padding: 4px 1px 0px;
+    margin: 17px 0;
+    border-left: 1px solid #e0d8d8;
+}
+.toolbar-sl-share ul li{
+    padding: 10px;
+}
+.toolbar-sl-share li a{
+    color: #30353b;
+    font-size: 19px;
+}
+.logo-area{
+    margin-top: 18px;
+}
+.wp-block-search__inside-wrapper{
+    width: 360px !important;
+    border-bottom: 1px solid #d8d8d8;
+}
+.wp-block-search__input{
+    border: 1px solid #94949400;
+    font-size: 18px;
+}
+.wp-block-search__button.has-icon{
+    border: none;
+    background: transparent;
+}
+.wp-block-search__button svg{
+    color: #505050;
+    font-size: 22px;
+    margin-right: -15px;
+}
+.is-layout-constrained.wp-block-group{
+    margin-top: 20px;
+}
+.wp-block-latest-posts.wp-block-latest-posts__list{
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+.sidebar-widget.widget_recent_entries li a,
+.sidebar-widget .wp-block-latest-posts__list li a{
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #1d1a4e;
+}
+.sidebar-widget .wp-block-archives li:before{
+    display: none;
+}
+.sidebar-widget .wp-block-archives li{
+    padding-left: 0;
+}
+.tec-blog.inner .blog-wrap .content-part{
+    padding: 36px 0px 10px;
+}
+.tec-blog.inner .blog-wrap .content-part .title a{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 30px;
+    line-height: 40px;
+    color: #1d1a4e;
+}
+.content-part p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #696e79;
+}
+.blog-meta li a{
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #30353b;
+    margin-right: 12px;
+}
+.blog-wrap .content-part .btn-part .readon-arrow{
+    color: #30353b !important;
+    font-size: 17px;
+    text-decoration: none !important;
+    font-weight: 500;
+}
+.readon-arrow:after{
+    right: 7px;
+}
+.readon-arrow:hover:after{
+    right: 0px;
+    color: #30353b;
+}
+.image-part{
+    overflow: hidden;
+}
+.image-part img{
+    transition: all 1.5s cubic-bezier(0,0,.2,1);
+}
+.blog-wrap:hover img{
+    transform: scale3d(1.1,1.1,1.1);
+}
+.nav-links .page-numbers.current{
+    background: transparent;
+    color: #ff726d;
+    border-radius: 35px;
+}
+.nav-links .page-numbers{
+    border-radius: 35px;
+}
+.blog-wrap.shadow{
+    box-shadow: unset !important;
+}
+
+.gray-bg2{
+    background: #fff;
+}
+.tec-cta.bg21, .tec-testimonial{
+    background: #fff;
+}
+.tec-cta .container{
+    background: #fff3f3;
+    padding: 30px 40px;
+}
+.tec-team, .tec-portfolio, .tec-partner{
+    background-color: #fdf6f1;
+}
